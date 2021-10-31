@@ -1,0 +1,17 @@
+{
+  "name": "minio-play",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "luchanso <luchansodev@gmail.com>",
+  "scripts": {
+    "start": "yarn tsc && node build/index"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "minio": "7.0.19",
+    "typescript": "4.4.4"
+  },
+  "devDependencies": {
+    "@types/minio": "7.0.11"
+  }
+}
